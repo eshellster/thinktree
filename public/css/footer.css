@@ -1,0 +1,22 @@
+.footer {
+  padding: 30px 20px 40px 20px;
+  width: 1070px;
+
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.footer h2 {
+  font-size: 22px;
+  margin: 12px 0;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 9px 0;
+  color: #d6d6d6;
+}
+
+.footer p:last-child {
+  color: gray;
+}

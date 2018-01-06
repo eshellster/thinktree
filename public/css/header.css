@@ -1,0 +1,25 @@
+@import "menu.css";
+header {
+  background-color: #FCCF2F;
+  position: fixed;
+  height: 100px;
+  width: 1070px;
+  top: 0px;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+}
+.thinktreelogo {
+  width: 170px;
+  position: relative;
+  top:-10px;
+  margin-left: 40px;
+}
+#thinktreelogo{
+  width: 100%
+  height: 100%;
+  background-image: url(Untitled-3.svg);
+  background-size: cover;
+  padding: 0; /* reset */
+  padding-bottom: calc(100% * 3 / 4);
+}

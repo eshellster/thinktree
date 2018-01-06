@@ -1,0 +1,7 @@
+@import "skippr_style.css";
+@import "skippr.css";
+main {
+  width: 1070px;
+  height: 388px;
+  margin-bottom: 30px;
+}
