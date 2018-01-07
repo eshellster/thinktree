@@ -122,14 +122,14 @@
 .quick-link{
   height: 261px;
   background-color: #E1E1E1;
-  padding: 20px;
+  padding: 0 20px;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   margin-bottom: 12px;
 }
 .quick-link__column{
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   text-align: center;
 }
@@ -177,16 +177,16 @@
 }
 
 .quick-link__icon #hangle{
-  background-image: url(../sourceimages/svg/hangle_sketch_white.svg);
+  background-image: url(../../sourceimages/svg/hangle_sketch_white.svg);
 }
 .quick-link__icon #havruta{
-  background-image: url(../sourceimages/svg/havruta_balloon.svg);
+  background-image: url(../../sourceimages/svg/havruta_balloon.svg);
 }
 .quick-link__icon #special{
-  background-image: url(../sourceimages/svg/special_color.svg);
+  background-image: url(../../sourceimages/svg/special_color.svg);
 }
 .quick-link__icon #boardgame{
-  background-image: url(../sourceimages/svg/boardgame.svg);
+  background-image: url(../../sourceimages/svg/boardgame.svg);
 }
 
 #havruta, #boardgame{
@@ -249,17 +249,25 @@
   font-weight: bold;
   letter-spacing: -0.025em;
 }
-.m0301 {
+.main-board {
   height: 178px;
   margin-bottom: 12px;
   border: 1px solid #d6d6d6;
+  display: flex;
+  flex-direction: column;
 }
-.m0301 span.more {
+.main-board span.more {
   float: right;
 }
-.m0301 h3 {
+.main-board h3 {
   float: left;
   color: #292929;
+}
+.board__title{
+  margin-bottom: 10px;
+}
+.board__list ul li{
+  margin-bottom: 7px;
 }
 .m0302 h3 {
   color: #fff;
